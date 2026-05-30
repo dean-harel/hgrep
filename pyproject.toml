@@ -1,0 +1,31 @@
+[project]
+name = "hgrep"
+version = "0.1.0"
+description = "Harness-agnostic session search and resume across AI coding CLIs"
+requires-python = ">=3.10"
+
+[project.optional-dependencies]
+dev = ["pytest>=7", "pyright>=1.1.400", "mypy>=1.10"]
+
+[project.scripts]
+hgrep = "hgrep.cli:main"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["hgrep*"]
+
+[tool.pyright]
+include = ["hgrep"]
+pythonVersion = "3.10"
+typeCheckingMode = "strict"
+
+[tool.mypy]
+python_version = "3.10"
+files = ["hgrep"]
+strict = true
+warn_unreachable = true
+warn_redundant_casts = true
+warn_unused_ignores = true

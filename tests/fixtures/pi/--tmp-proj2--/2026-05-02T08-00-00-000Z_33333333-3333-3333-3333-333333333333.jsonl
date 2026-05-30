@@ -1,0 +1,6 @@
+{"type":"session","version":3,"id":"33333333-3333-3333-3333-333333333333","cwd":"/tmp/proj2","timestamp":"2026-05-02T08:00:00.000Z"}
+{"type":"message","id":"a","parentId":null,"timestamp":"2026-05-02T08:00:01.000Z","message":{"role":"user","content":[{"type":"text","text":"how do I deploy the settlement service"}]}}
+{"type":"message","id":"b","parentId":"a","timestamp":"2026-05-02T08:00:03.000Z","message":{"role":"assistant","content":[{"type":"thinking","thinking":"PI_SECRET_THINKING"},{"type":"text","text":"run the deploy script"},{"type":"toolCall","name":"bash","arguments":{}}]}}
+{"type":"message","id":"c","parentId":"b","timestamp":"2026-05-02T08:00:05.000Z","message":{"role":"toolResult","content":[{"type":"text","text":"PI_TOOL_OUTPUT"}]}}
+{"type":"session_info","id":"d","name":"Settlement deploy"}
+not valid json skip me

@@ -1,0 +1,2 @@
+{"type":"user","timestamp":"2026-05-02T09:00:00.000Z","cwd":"/tmp/bar","gitBranch":"feature","message":{"role":"user","content":"hello world question"}}
+{"type":"assistant","timestamp":"2026-05-02T09:00:02.000Z","message":{"role":"assistant","content":[{"type":"text","text":"an answer"}]}}

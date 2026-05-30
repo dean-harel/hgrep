@@ -1,0 +1,6 @@
+{"type":"user","timestamp":"2026-05-01T10:00:00.000Z","cwd":"/tmp/proj","gitBranch":"main","message":{"role":"user","content":"fix the renewals retry bug"}}
+{"type":"assistant","timestamp":"2026-05-01T10:00:05.000Z","gitBranch":"main","message":{"role":"assistant","content":[{"type":"thinking","thinking":"SECRET_THINKING"},{"type":"text","text":"I will look at the retry logic"},{"type":"tool_use","name":"Read","input":{}}]}}
+{"type":"user","timestamp":"2026-05-01T10:00:09.000Z","message":{"role":"user","content":[{"type":"tool_result","content":"SECRET_TOOL_OUTPUT"}]}}
+{"type":"ai-title","aiTitle":"Renewals retry bug fix"}
+{"type":"custom-title","customTitle":"Renewals"}
+this line is not valid json and must be skipped

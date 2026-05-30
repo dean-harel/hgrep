@@ -1,0 +1,2 @@
+{"type":"session","version":3,"id":"44444444-4444-4444-4444-444444444444","cwd":"/tmp/proj3","timestamp":"2026-05-03T08:00:00.000Z"}
+{"type":"message","id":"a","parentId":null,"timestamp":"2026-05-03T08:00:01.000Z","message":{"role":"user","content":[{"type":"text","text":"pi fallback title question"}]}}
